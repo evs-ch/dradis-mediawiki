@@ -1,3 +1,5 @@
+require 'net/http'
+
 module Dradis::Plugins::Mediawiki::Filters
   class FullTextSearch < Dradis::Plugins::Import::Filters::Base
     def query(params={})
